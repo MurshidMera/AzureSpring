@@ -1,0 +1,15 @@
+package com.azure.deploye;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringProjectApplication.class, args);
+		System.out.println("Configuring Spring boot for Azure deployment.");
+
+	}
+
+}
