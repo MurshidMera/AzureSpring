@@ -1,1 +1,16 @@
 Repository for Azure spring boot deployment.
+clone the repository in local,
+create the basic application,inside local cloned location
+open that application ,add the file 
+Step for First committ
+git init
+git status => it shows on branch master
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository_url>  # only if not added yet
+git push 
+
+Note:- 
+if your commit in master to merge in main branch use the below command.
+switch to main branch and execute the below code.
+git merge master --allow-unrelated-histories -m "Merge branch 'master' into main with unrelated histories"
